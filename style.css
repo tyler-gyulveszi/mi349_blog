@@ -1,8 +1,11 @@
 /*rule1*/
+
+
 body {
     background-color: darkgrey;
     margin: 30px;
     padding: 30px;
+    
 }
 /*rule2*/
 h1 {
@@ -16,19 +19,21 @@ h2{
 /*rule4* - type selector*/
 p {
     color: rgb(44, 25, 33);
-    text-align: center;
+    text-align: left;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+   
 }
 /*rule5 - class selector*/
 .menu {
     color: rgb(48, 47, 47);
     font-style: italic;
-    font-size: 30px;
+    font-size: 15px;
 }
 /*rule6*/
 table {
     color: rgb(24, 18, 18);
-    padding-left: 19cm;
+    padding-right: 14cm;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     table-layout: fixed ;
     font-size: medium;
@@ -41,6 +46,7 @@ a[href] {
     background-color: rgb(221, 204, 105);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 30px;
+    font-size: 18px;
 }
 /*rule8*/
 .section-heading {
@@ -53,10 +59,62 @@ a[href] {
     color: rgb(51, 51, 51);
     font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
 }
 /*rule10*/
 #Post2 {
     color: rgb(51, 51, 51);
     font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+
+/* sticky sidebar using the asside attribute */
+.stickysidebar {
+    background: gray;
+    position: sticky;
+    font-size: 15px;
+    float: right;
+    top: 0;
+    width: 7%;
+}
+#blogpar1 {
+    font-size: 10px;
+    width: 40%;
+    font-size: 17px;
+}
+
+#blogpar2 {
+    font-size: 17px;
+    width: 40%;
+}
+.postimg {
+    max-width: 300px;
+}
+/* Flex display for sections with class flexsection */
+.flexsection {
+    display:flex;
+}
+/* selectomg first article section to flexbox */
+article:nth-of-type(1) {
+    background:rgba(255, 255, 255, 0.212);
+    flex: 10px;
+    flex-direction:row;
+    
+
+}
+/* selecting second article section to flexbox */
+article:nth-of-type(2) {
+    background:rgba(255, 255, 255, 0.212);
+    flex: 10px;
+    flex-direction:row;
+}
+/* Right floated image with padding on right side to fill empty space near bottom */
+.exitphoto {
+    float: right;
+    padding-right: 400px;
+    max-width: 40%;
+    padding-bottom: 20px;
 }
