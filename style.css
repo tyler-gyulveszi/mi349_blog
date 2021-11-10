@@ -118,3 +118,31 @@ article:nth-of-type(2) {
     max-width: 40%;
     padding-bottom: 20px;
 }
+
+/* Media Queries */
+@media (max-width: 800px) {
+    #blogpar1 {
+       background: blanchedalmond;
+    }
+    #blogpar2 {
+    background: blanchedalmond;
+    }
+    body {
+        background-color: burlywood;
+    }
+    .stickysidebar {
+        background-color: cornsilk;
+        max-width: 7%;
+        margin-right: 100px;
+        float: left;
+        font-size: 10px;
+    }
+    .exitphoto {
+        max-width: 25%;
+        
+    }
+    .SignUpSec {
+        float: right;
+    }
+}
+
